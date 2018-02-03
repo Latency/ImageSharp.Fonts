@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>A cross-platform library for loading and laying out for processing and measuring; written in C#</Description>
+    <AssemblyTitle>SixLabors.Fonts</AssemblyTitle>
+    <Authors>SixLabors and contributors</Authors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>      
+    <AssemblyName>SixLabors.Fonts</AssemblyName>
+    <Company>Six Labors</Company>
+    <PackageId>SixLabors.Fonts</PackageId>
+    <PackageTags>Font TrueType OpenType WOFF</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/SixLabors/Fonts/master/icons/icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Latency/ImageSharp.Fonts</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <RepositoryUrl>https://github.com/Latency/ImageSharp.Fonts</RepositoryUrl>
+    <TargetFrameworks>netstandard1.1;netstandard1.3;netstandard1.6;netstandard2.0;netcoreapp2.0;net45;net471</TargetFrameworks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+    <Version>1.0.1</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RootNamespace>SixLabors.Fonts</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard1.1|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.1\SixLabors.Fonts.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.1|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.1\SixLabors.Fonts.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SixLabors.Core" Version="1.0.1" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.4.0" />
+  </ItemGroup>
+</Project>

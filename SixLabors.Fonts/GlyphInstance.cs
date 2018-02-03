@@ -5,6 +5,7 @@ using System;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using SixLabors.Primitives;
+using MathF = System.Math;
 
 namespace SixLabors.Fonts
 {
@@ -187,7 +188,7 @@ namespace SixLabors.Fonts
 
         private static void AlignToGrid(ref Vector2 point)
         {
-            Vector2 floorPoint = new Vector2(MathF.Floor(point.X), MathF.Floor(point.Y));
+            Vector2 floorPoint = new Vector2((float)MathF.Floor(point.X), (float)MathF.Floor(point.Y));
             Vector2 decimalPart = point - floorPoint;
 
             if (decimalPart.X < 0.5)

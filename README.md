@@ -1,25 +1,12 @@
-
-#  <img src="icons/icon.png" width="52" height="52" /> SixLabors.Fonts
+# SixLabors.Fonts
 
 **SixLabors.Fonts** is a new cross-platform font loadings and drawing library.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/26dab7lf874b5ib3/branch/master?svg=true)](https://ci.appveyor.com/project/six-labors/fonts/branch/master)
-[![codecov](https://codecov.io/gh/SixLabors/Fonts/branch/master/graph/badge.svg)](https://codecov.io/gh/SixLabors/Fonts)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/SixLabors/Fonts/master/LICENSE)
+### Packages
 
-[![Join the chat at https://gitter.im/SixLabors/Shapes](https://badges.gitter.im/SixLabors/Fonts.svg)](https://gitter.im/SixLabors/Fonts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![GitHub issues](https://img.shields.io/github/issues/SixLabors/Fonts.svg)](https://github.com/SixLabors/Fonts/issues)
-[![GitHub stars](https://img.shields.io/github/stars/SixLabors/Fonts.svg)](https://github.com/SixLabors/Fonts/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/SixLabors/Fonts.svg)](https://github.com/SixLabors/Fonts/network)
-
-
-### Installation
-
-**Pre-release downloads**
-
-At present the code is pre-release we have initial pre-releases availible on [nuget](https://www.nuget.org/packages/SixLabors.Fonts/).
-
-We also have a [MyGet package repository](https://www.myget.org/gallery/SixLabors) - for bleeding-edge / development NuGet releases.
+|         Name       | Release (NuGet) | Build Status | License | Chat |
+|--------------------|-----------------|--------------|---------|------|
+| `SixLabors.Fonts`   | [![Download](https://img.shields.io/myget/imagesharp-latency/v/SixLabors.Fonts.svg)](https://www.myget.org/F/imagesharp-latency/api/v2/package/SixLabors.Fonts/1.0.1) | [![imagesharp-latency MyGet Build Status](https://www.myget.org/BuildSource/Badge/imagesharp-latency?identifier=16b7c29c-eded-4309-aaf9-86efabce2e65)](https://www.myget.org/) | [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/Latency/ImageSharp.Core/master/LICENSE) | [![Chat](https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667)](https://gitter.im/ImageSharp/General?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge) |
 
 ### Manual build
 
@@ -41,7 +28,7 @@ git clone https://github.com/SixLabors/Fonts.git
 - Load all compatable fornts from local machine store (windows only at the moment)
 
 #### Limitations
-we currently only support otf and woff fonts with True Type outlines.
+Only support for otf and woff fonts with True Type outlines.
 
 ## API Examples
 
@@ -72,9 +59,4 @@ Please... Spread the word, contribute algorithms, submit performance improvement
 
 ### Projects using SixLabors.Fonts
 
-* [ImageSharp](https://github.com/jimBobSquarePants/ImageSharp) - cross platform, fully manged, image manipultion and drawing library.
-
-### The SixLabors.Fonts Team
-
-Lead
-- [Scott Williams](https://github.com/tocsoft)
+* [ImageSharp](https://github.com/Latency/ImageSharp) - cross platform, fully manged, image manipultion and drawing library.
